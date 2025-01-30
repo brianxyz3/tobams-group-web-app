@@ -1,0 +1,94 @@
+header {
+    height: 100dvh;
+    color: #7780A1;
+    background-color: #060714;
+    background-image: url("../assets/Background.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+header nav {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+header nav .logo span {
+    color: #060714;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+header nav ul li:hover {
+    cursor: pointer;
+    border-bottom: solid 1px #2A27C9;
+}
+
+
+header nav button {
+    color: inherit;
+    padding: 8px 12px;
+    border: 1px solid;
+    border-radius: 12px;
+}
+
+header nav .contact_btn {
+    background-color: inherit;
+    margin-right: 0.5rem;
+}
+
+header nav .profile_btn {
+    color: #fff;
+    background-image: linear-gradient(to bottom right, #4745D0, #2A27C9 50%);
+}
+
+header section {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .hero_div {
+    text-align: center;
+}
+
+header .hero_div p:nth-last-child(1) {
+    margin-top: 20px;
+}
+
+header .hero_text {
+    color: #fff;
+    font-size: 3rem;
+}
+
+header .hero_text h1 {
+    display: flex;
+    align-items: center;
+}
+
+header .hero_text h1:nth-last-child(1) {
+    margin-left: 20px;
+}
+
+
+
+
+
+
+@media screen and (min-width: 1440px) {
+    header nav button {
+        padding: 16px 24px;
+    }
+}
