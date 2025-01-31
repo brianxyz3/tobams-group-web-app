@@ -42,12 +42,12 @@ header nav button {
     border-radius: 12px;
 }
 
-header nav .contact_btn {
+.contact_btn {
     background-color: inherit;
     margin-right: 0.5rem;
 }
 
-header nav .profile_btn {
+.profile_btn {
     color: #fff;
     background-image: linear-gradient(to bottom right, #4745D0, #2A27C9 50%);
 }
